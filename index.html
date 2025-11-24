@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leonid Simonenko | Backend Developer</title>
+    
+    <!-- Шрифты -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@500;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Иконки RemixIcon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- Основные стили -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Меню -->
+    <header>
+        <div class="nav-container">
+            <div class="nav-logo">LS.</div>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="#about" class="nav-link">Обо мне</a></li>
+                    <li><a href="#skills" class="nav-link">Навыки</a></li>
+                    <li><a href="#experience" class="nav-link">Опыт</a></li>
+                    <li><a href="#projects" class="nav-link">Проекты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        
+        <!-- Hero Section -->
+        <section class="hero" id="about">
+            <div class="hero-text">
+                <h3>Привет, я <span class="highlight">Леонид</span></h3>
+                <h1>Backend Developer <br> <span class="highlight">Python & Java</span></h1>
+                <p class="hero-subtitle">
+                    Студент 3-го курса «Программной инженерии» в <span style="color: var(--text-main); font-weight: 600;">ЧелГУ</span>. 
+                    Специализируюсь на <span style="color: var(--text-main); font-weight: 600;">бэкенде</span>, но имею крепкую базу в 
+                    <span style="color: var(--text-main); font-weight: 600;">нативном JS и DOM</span>, 
+                    понимая веб-технологии «изнутри», а не только через фреймворки. 
+                    Также создаю <span style="color: var(--text-main); font-weight: 600;">Desktop-приложения, боты и парсеры</span>.
+                </p>
+                <div class="hero-btns">
+                    <a href="https://t.me/decartld" target="_blank" class="btn btn-primary">
+                        <i class="ri-telegram-fill"></i> Написать мне
+                    </a>
+                    <a href="https://github.com/LeonidDecart" target="_blank" class="btn btn-outline">
+                        <i class="ri-github-fill"></i> GitHub
+                    </a>
+                </div>
+            </div>
+            <div class="hero-img-box">
+                <img src="avatar.jpg" alt="Леонид Симоненко" class="hero-img">
+            </div>
+        </section>
+
+        <!-- Навыки -->
+        <section id="skills">
+            <h2 class="section-title"><i class="ri-code-s-slash-line"></i> Технический стек</h2>
+            
+            <h3 style="margin-bottom: 10px; font-size: 1.1rem; color: var(--text-muted);">Backend & Core</h3>
+            <div class="skills-wrapper" style="margin-bottom: 20px;">
+                <div class="skill-pill">
+                    <i class="ri-java-fill"></i> Java (Core, OOP) 
+                    <span style="font-size: 0.75rem; opacity: 0.7;">(изучал в университете, планирую развиваться)</span>
+                </div>
+                <div class="skill-pill"><i class="ri-python-fill"></i> Python</div>
+                <div class="skill-pill">
+                    <i class="ri-code-box-line"></i> PHP 
+                    <span style="font-size: 0.75rem; opacity: 0.7;">(базовый уровень, процедурный стиль)</span>
+                </div>
+                <div class="skill-pill"><i class="ri-database-2-fill"></i> PostgreSQL</div>
+                <div class="skill-pill"><i class="ri-server-line"></i> Docker</div>
+                <div class="skill-pill">
+                    <i class="ri-flow-chart"></i> RabbitMQ 
+                    <span style="font-size: 0.75rem; opacity: 0.7;">(минимально, в рамках изучения Java Spring)</span>
+                </div>
+            </div>
+
+            <h3 style="margin-bottom: 10px; font-size: 1.1rem; color: var(--text-muted);">Frontend & Tools</h3>
+            <div class="skills-wrapper">
+                <!-- Акцент на нативном знании -->
+                <div class="skill-pill"><i class="ri-javascript-fill"></i> Native JS (DOM / Events)</div>
+                <div class="skill-pill"><i class="ri-html5-fill"></i> HTML5 & CSS3</div>
+                <!-- Честное указание React + AI -->
+                <div class="skill-pill">
+                    <i class="ri-reactjs-line"></i> React 
+                    <span style="font-size: 0.75rem; opacity: 0.7;">(только через AI, самостоятельный опыт отсутствует)</span>
+                </div>
+                
+                <div class="skill-pill"><i class="ri-git-merge-line"></i> Git</div>
+                <div class="skill-pill"><i class="ri-translate-2"></i> English (B1-B2)</div>
+            </div>
+        </section>
+
+        <!-- Опыт работы -->
+        <section id="experience">
+            <h2 class="section-title"><i class="ri-briefcase-line"></i> Опыт работы</h2>
+            <div class="timeline">
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="job-card">
+                        <div class="job-header">
+                            <div class="job-title">
+                                <h3>Backend Developer / Automation</h3>
+                                <span class="job-company">ООО ЮК “За результат”</span>
+                            </div>
+                            <span class="job-date">Сентябрь 2023 — Наст. время</span>
+                        </div>
+                        <div class="job-desc">
+                            <p style="margin-bottom: 10px;">
+                                Разработка инструментов автоматизации и интеграция сервисов. 
+                                Реализовано множество решений, среди ключевых:
+                            </p>
+                            <ul>
+                                <li>
+                                    <strong>Desktop-приложение для юристов</strong> (Python + Pywebview + PHP) — 
+                                    программа для генерации документов по шаблонам с автоматической подстановкой данных клиентов. 
+                                    Позволила ускорить работу и увеличить клиентскую базу компании.
+                                </li>
+                                <li>
+                                    <strong>Интеграция Bitrix24 API</strong> — синхронизация с ЮКасса: автоматическое создание 
+                                    счетов в Битриксе при оплате счета по ЮКасса. Синхронизация анкет на сайте компании с лидами и контактами в Bitrix в реальном времени.
+                                    Настройка сценариев и бизнес-процессов. Система распределения клиентов между сотрудниками.
+                                </li>
+                                <li>
+                                    <strong>Система автоматической отчетности</strong> — клиенты получают персонализированные 
+                                    отчеты о ходе работ в случае отпуска или отсутствия 
+                                    ответственного менеджера.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="job-card">
+                        <div class="job-header">
+                            <div class="job-title">
+                                <h3>Freelance Developer</h3>
+                            </div>
+                            <span class="job-date">2022 — наст. время</span>
+                        </div>
+                        <div class="job-desc">
+                            <p style="margin-bottom: 10px; font-style: italic; color: var(--text-muted);">
+                                Периодически беру заказы параллельно с основной работой
+                            </p>
+                            <ul>
+                                <li>Разработка Telegram-ботов (Aiogram) со сложной сценарной логикой.</li>
+                                <li>Написание скриптов автоматизации бизнес-процессов.</li>
+                                <li style="font-style: italic; opacity: 0.8;">И так далее...</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Проекты -->
+        <section id="projects">
+            <h2 class="section-title"><i class="ri-rocket-line"></i> Проекты</h2>
+            <div class="projects-grid">
+                
+                <!-- Проект 1 -->
+                <div class="project-card">
+                    <div class="project-content">
+                        <div class="project-title">
+                            Smart Gallery (AI)
+                            <a href="#" style="font-size: 1.2rem;"><i class="ri-github-fill"></i></a>
+                        </div>
+                        <p class="project-desc">
+                            Веб-приложение для умного поиска фото по описанию и лицам. Демонстрация Fullstack навыков:
+                            сложный Backend на Python и современный Frontend (React), реализованный с использованием AI-инструментов.
+                        </p>
+                        <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 8px; font-style: italic;">
+                            <i class="ri-book-line"></i> Разработан в рамках учебной практики в университете
+                        </p>
+                        <p style="font-size: 0.9rem; color: #ccc; margin-bottom: 10px;">
+                            <strong>Моя роль:</strong> Архитектура БД (pgvector), API моделей, контейнеризация.
+                        </p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">FastAPI</span>
+                            <span class="tech-tag">React (AI)</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">Docker</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Проект 2 (Учеба) -->
+                <div class="project-card">
+                    <div class="project-content">
+                        <div class="project-title">University Java Core</div>
+                        <p class="project-desc">
+                            Глубокое погружение в экосистему Java в рамках университетского курса.
+                            Реализация паттернов ООП и работа со строгой типизацией.
+                        </p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">Spring</span>
+                            <span class="tech-tag">Maven</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Конкурсы -->
+        <section id="contests">
+            <h2 class="section-title"><i class="ri-trophy-line"></i> Конкурсы</h2>
+            
+            <div class="contest-block">
+                <div class="contest-header">
+                    <div>
+                        <h3 style="font-size: 1.5rem; margin-bottom: 5px;">Хакатон "Уральский код" 2025</h3>
+                        <p style="color: var(--accent);"><i class="ri-trophy-fill"></i> 3 место | 24 часа разработки</p>
+                    </div>
+                    <button class="btn btn-outline" onclick="openGallery(0)">
+                        <i class="ri-fullscreen-line"></i> Смотреть фото
+                    </button>
+                </div>
+                
+                <p style="color: var(--text-muted); margin-bottom: 15px;">
+                    <strong>Кейс от УрФУ:</strong> Динамический планировщик образовательной траектории для магистратуры.
+                </p>
+                <p style="color: var(--text-muted); margin-bottom: 20px;">
+                    Веб-сервис для студентов, который связывает курсы с профессиональными навыками, 
+                    визуализирует текущий прогресс через radar-диаграмму и подсказывает, какие дисциплины 
+                    нужно выбрать для достижения целевой специальности. 
+                    <em>Моя роль: разработка Backend (FastAPI), проектирование БД (PostgreSQL), контейнеризация (Docker).</em>
+                </p>
+
+                <!-- Миниатюры -->
+                <div class="gallery-preview">
+                    <img src="hackaton/1.jpg" onclick="openGallery(0)" alt="Хакатон фото 1">
+                    <img src="hackaton/2.jpg" onclick="openGallery(1)" alt="Хакатон фото 2">
+                    <img src="hackaton/3.jpg" onclick="openGallery(2)" alt="Хакатон фото 3">
+                    <img src="hackaton/4.jpg" onclick="openGallery(3)" alt="Хакатон фото 4">
+                    <img src="hackaton/5.jpg" onclick="openGallery(4)" alt="Хакатон фото 5">
+                    <img src="hackaton/6.jpg" onclick="openGallery(5)" alt="Хакатон фото 6">
+                    <img src="hackaton/7.jpg" onclick="openGallery(6)" alt="Хакатон фото 7">
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://t.me/decartld"><i class="ri-telegram-fill"></i></a>
+            <a href="https://github.com/LeonidDecart"><i class="ri-github-fill"></i></a>
+            <a href="mailto:decartfamily@vk.com"><i class="ri-mail-fill"></i></a>
+        </div>
+        <p>© 2025 Леонид Симоненко.</p>
+    </footer>
+
+    <!-- Модальное окно (Галерея) -->
+    <div id="modal" class="modal">
+        <span class="close-modal" onclick="closeModal()">&times;</span>
+        <div class="modal-img-container">
+            <img id="modal-img" class="modal-content" src="">
+        </div>
+        <div class="modal-nav">
+            <button class="nav-btn" onclick="changeSlide(-1)"><i class="ri-arrow-left-line"></i> Назад</button>
+            <span id="slide-count" style="color:white; font-family: 'Outfit';">1 / 3</span>
+            <button class="nav-btn" onclick="changeSlide(1)">Вперед <i class="ri-arrow-right-line"></i></button>
+        </div>
+    </div>
+
+    <!-- Скрипты -->
+    <script src="js/script.js"></script>
+</body>
+</html>
