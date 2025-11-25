@@ -155,10 +155,39 @@ footer { text-align: center; padding: 30px 0; color: var(--text-muted); font-siz
 .social-links a:hover { color: var(--primary); }
 
 @media (max-width: 768px) {
-    .hero { flex-direction: column-reverse; text-align: center; gap: 40px; }
-    .hero-text h1 { font-size: 2.5rem; }
-    .hero-btns { justify-content: center; }
+    /* Более компактная hero секция */
+    .hero { 
+        flex-direction: column-reverse; 
+        text-align: center; 
+        gap: 20px; 
+        min-height: auto;
+        padding: 20px 0 40px;
+    }
+    .hero-text h1 { font-size: 2rem; line-height: 1.2; margin-bottom: 10px; }
+    .hero-text h3 { font-size: 1rem; }
+    .hero-subtitle { font-size: 0.95rem; margin-bottom: 20px; }
+    .hero-btns { justify-content: center; flex-wrap: wrap; }
+    .hero-img { width: 200px; height: 200px; }
+    
+    /* Компактные секции */
+    section { padding: 40px 0; }
+    .section-title { font-size: 1.5rem; margin-bottom: 20px; }
+    
+    /* Компактный технический стек */
+    #skills h3 { font-size: 0.95rem !important; margin-bottom: 8px !important; }
+    .skills-wrapper { gap: 8px; margin-bottom: 15px !important; }
+    .skill-pill { 
+        padding: 6px 12px; 
+        font-size: 0.8rem;
+    }
+    .skill-pill span { font-size: 0.65rem !important; }
+    
+    /* Навигация */
     .nav-menu { display: none; }
     .nav-container { justify-content: center; }
+    
+    /* Компактные карточки */
+    .job-card, .project-content, .contest-block { padding: 15px; }
+    .job-title h3, .project-title { font-size: 1.1rem; }
 }
 
